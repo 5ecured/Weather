@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 200px;
+    text-align: center;
+    border: 1px solid grey;
+    width: 99%;
+    margin: auto;
+}
+
+#buttonMelbourne, #buttonTokyo, #buttonSingapore, #buttonBandung {
+    border-radius: 20px;
+    background-color: #0ea5eb;
+    height: 40px;
+    width: 125px;
+    color: whtite;
+    font-family: cursive;
+}
+
+.fourButtons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+h1 {
+    font-size: 80px;;
+    text-align: center;
+    margin: 0;
+}
+
+.one, .two, .three, .four {
+    border: 1px solid grey;
+    padding-top: 10px;
+}
+
+img {
+    border-radius: 50%;
+}
